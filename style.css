@@ -1,0 +1,34 @@
+/* clearing */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro {
+    background-image: url(aset/foto/pexels-evgeny-tchebotarev-4101555.jpg);
+}
+.content {
+    background-image: url(aset/foto/pexels-frans-van-heerden-624015.jpg);
+}
+.footer {
+    background-image: url(aset/foto/pexels-jeremy-bishop-2922672.jpg);
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+    font-size: 3em;
+    letter-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
